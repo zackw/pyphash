@@ -6,7 +6,7 @@ fashion.  It exposes one function, named `crypt`, which works just
 like the C `crypt` except that it is thread safe:
 
 
-    >>> pyphash.crypt("swordfish", "$5e$z4x3Zlhs")
+    >>> pyphash.crypt("swordfish", "$5$z4x3Zlhs")
     '$5$z4x3Zlhs$g7JP4M7HZw5L25Xwklbd2nQ2rfjzVGFB1SJutFnmvK4'
 
 You have to create settings strings yourself.
